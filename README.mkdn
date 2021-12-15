@@ -1,0 +1,10 @@
+## Local manifest ##
+
+Local manifests to sync your device's source code.
+Usage:
+
+```
+rm -rf .repo/local_manifests
+mkdir -p .repo/local_manifest
+wget https://raw.githubusercontent.com/deadlylxrd-project/platform_manifests/master/<ROM>/<ROMVersion>/<device>.xml -O .repo/local_manifests/manifest.xml
+```
