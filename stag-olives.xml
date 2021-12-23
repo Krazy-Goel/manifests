@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="all"
+          fetch="https://github.com/"
+          clone-depth="1" />
+
+  <!-- Device stuff -->
+  <project path="device/xiaomi/olives" name="olives-project/device_xiaomi_olives" remote="all" revision="stag" />
+  <project path="device/xiaomi/sdm439-common" name="olives-project/device_xiaomi_olives-common" remote="all" revision="11" />
+  <project path="kernel/xiaomi/sdm439" name="olives-project/kernel-olive" remote="all" revision="11" />
+  <project path="vendor/xiaomi/olives" name="olives-project/vendor_xiaomi_olives" remote="all" revision="11" />
+  <project path="vendor/xiaomi/sdm439-common" name="olives-project/vendor_xiaomi_olives-common" remote="all" revision="11" />
+
+  <!-- Hals -->
+  <remove-project name="android_hardware_qcom_display" />
+  <project path="hardware/qcom-caf/msm8996/display" name="mi-sdm439/android_hardware_qcom_display" remote="all" revision="lineage-18.1-caf-msm8996"/>
+
+  <!-- Other stuff -->
+  <remove-project name="android_packages_apps_FMRadio" />
+  <project path="packages/apps/FMRadio" name="mi-sdm439/android_packages_apps_FMRadio" remote="all" revision="lineage-18.1" />
+
+</manifest>
