@@ -14,7 +14,6 @@
   <project path="vendor/xiaomi/sdm439-common" name="skittels15/vendor_xiaomi_olives-common" remote="all" revision="11" />
 
   <!-- Other stuff -->
-  <remove-project name="packages_resources_devicesettings"/>
   <project path="packages/resources/devicesettings" name="skittels15/packages_resources_devicesettings" remote="all" revision="lineage-18.1" />
 
   <remove-project name="LineageOS/android_packages_apps_FMRadio" />
