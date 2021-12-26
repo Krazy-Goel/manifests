@@ -15,8 +15,6 @@
 
   
   <!-- Other stuff -->
-  <project path="packages/resources/devicesettings" name="skittels15/packages_resources_devicesettings" remote="all" revision="lineage-18.1" />
-  
   <remove-project name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/FMRadio" name="mi-sdm439/android_packages_apps_FMRadio" remote="all" revision="lineage-18.1" />
   
