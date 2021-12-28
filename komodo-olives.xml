@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="all"
+          fetch="https://github.com/"
+          clone-depth="1" />
+
+  <!-- Device stuff -->
+  <project path="device/xiaomi/olives" name="olives-project/device_xiaomi_olives" remote="all" revision="komodo-12" />
+  <project path="device/xiaomi/sdm439-common" name="olives-project/device_xiaomi_olives-common" remote="all" revision="12" />
+  <project path="kernel/xiaomi/sdm439" name="xiaomi-sdm439-devs/android_kernel_xiaomi_sdm439" remote="all" revision="a12/main" />
+  <project path="vendor/xiaomi/olives" name="olives-project/vendor_xiaomi_olives" remote="all" revision="12" />
+  <project path="vendor/xiaomi/sdm439-common" name="olives-project/vendor_xiaomi_olives-common" remote="all" revision="12" />
+
+  <!-- Other stuff -->
+  <remove-project name="android_packages_apps_FMRadio" />
+  <project path="packages/apps/FMRadio" name="mi-sdm439/android_packages_apps_FMRadio" remote="all" revision="lineage-18.1" />
+
+  <!-- Hals -->
+  <remove-project name="android_hardware_qcom_display" />
+  <project path="hardware/qcom-caf/msm8996/display" name="ChuckProjekt/hardware_qcom_display" remote="all" revision="8.6.2"/>
+  <remove-project name="android_hardware_qcom_audio" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="ChuckProjekt/hardware_qcom_audio" remote="all" revision="8.6.2" />
+  <remove-project name="android_hardware_qcom_media" />
+  <project path="hardware/qcom-caf/msm8996/media" name="ChuckProjekt/hardware_qcom_media" remote="all" revision="8.6.2" />
+</manifest>
