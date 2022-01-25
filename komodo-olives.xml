@@ -22,3 +22,6 @@
   <project path="hardware/qcom-caf/msm8996/media" name="olives-trees/hardware_qcom_media" remote="all" revision="8.6.2" />
   <remove-project name="android_hardware_qcom-caf_wlan" />
   <project path="hardware/qcom-caf/wlan" name="olives-trees/hardware_qcom-caf_wlan" remote="all" revision="S" />
+
+  <remove-project name="device_qcom_sepolicy-legacy-um"/>
+  <project path="device/qcom/sepolicy-legacy-um" name="PixelExperience/device_qcom_sepolicy-legacy-um" remote="all" revision="twelve"/>
