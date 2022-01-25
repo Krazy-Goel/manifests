@@ -8,10 +8,10 @@
 
   <!-- Device stuff -->
   <project path="device/xiaomi/olives" name="olives-project/device_xiaomi_olives" remote="all" revision="komodo-12" />
-  <project path="device/xiaomi/sdm439-common" name="olives-project/device_xiaomi_olives-common" remote="all" revision="12"> 
+  <project path="device/xiaomi/sdm439-common" name="olives-project/device_xiaomi_olives-common" remote="all" revision="12" /> 
   <project path="kernel/xiaomi/sdm439" name="olives-trees/kernel_xiaomi_olives" remote="all" revision="a12/main" />
   <project path="vendor/xiaomi/olives" name="olives-trees/vendor_xiaomi_olives-12" remote="all" revision="12" />
-  <project path="vendor/xiaomi/sdm439-common" name="olives-trees/vendor_xiaomi_olives-common-12" remote="all" revision="12">
+  <project path="vendor/xiaomi/sdm439-common" name="olives-trees/vendor_xiaomi_olives-common-12" remote="all" revision="12" />
   
   <!-- Hals -->
   <remove-project name="hardware_qcom_display" />
@@ -23,5 +23,5 @@
   <remove-project name="android_hardware_qcom-caf_wlan" />
   <project path="hardware/qcom-caf/wlan" name="olives-trees/hardware_qcom-caf_wlan" remote="all" revision="S" />
 
-  <remove-project name="device_qcom_sepolicy-legacy-um"/>
-  <project path="device/qcom/sepolicy-legacy-um" name="PixelExperience/device_qcom_sepolicy-legacy-um" remote="all" revision="twelve"/>
+  <remove-project name="device_qcom_sepolicy-legacy-um" />
+  <project path="device/qcom/sepolicy-legacy-um" name="PixelExperience/device_qcom_sepolicy-legacy-um" remote="all" revision="twelve" />
