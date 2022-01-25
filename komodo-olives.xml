@@ -25,3 +25,5 @@
 
   <remove-project name="device_qcom_sepolicy-legacy-um" />
   <project path="device/qcom/sepolicy-legacy-um" name="PixelExperience/device_qcom_sepolicy-legacy-um" remote="all" revision="twelve" />
+
+</manifest>
