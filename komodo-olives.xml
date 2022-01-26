@@ -23,7 +23,10 @@
   <remove-project name="android_hardware_qcom-caf_wlan" />
   <project path="hardware/qcom-caf/wlan" name="olives-trees/hardware_qcom-caf_wlan" remote="all" revision="S" />
 
+  <!-- Extras -->
+  <remove-project name="android_packages_resources_devicesettings"/>
+  <project path="packages/resources/devicesettings" name="olives-trees/packages_resources_devicesettings" remote="all" revision="lineage-19.0"/>
   <remove-project name="device_qcom_sepolicy-legacy-um" />
   <project path="device/qcom/sepolicy-legacy-um" name="PixelExperience/device_qcom_sepolicy-legacy-um" remote="all" revision="twelve" />
-
+  
 </manifest>
