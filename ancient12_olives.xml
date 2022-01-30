@@ -22,7 +22,7 @@
 
   <remove-project name="android_packages_resources_devicesettings"/>
   <project path="packages/resources/devicesettings" name="olives-trees/packages_resources_devicesettings" remote="all" revision="lineage-18.1"/>
-  <remove-project name="device_qcom_sepolicy-legacy-um" />
+
   <project path="device/qcom/sepolicy-legacy-um" name="PixelExperience/device_qcom_sepolicy-legacy-um" remote="all" revision="twelve" />
   
 </manifest>
